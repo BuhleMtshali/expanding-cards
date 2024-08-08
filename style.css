@@ -61,7 +61,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70vw;
+  width: 60vw;
+  margin-left: 40px;
 }
 
 .panel {
