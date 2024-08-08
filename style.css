@@ -1,8 +1,63 @@
 body {
   font-family: "Inter", sans-serif;
-  display: flex;
-
-  justify-content: center;
+  text-align: center;
   height: 100vh;
   overflow: hidden;
+}
+.one {
+  background-image: url(imgs/bg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.two {
+  background-image: url(imgs/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.three {
+  background-image: url(imgs/bg-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.four {
+  background-image: url(imgs/bg-4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.five {
+  background-image: url(imgs/bg-5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.six {
+  background-image: url(imgs/bg-6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+}
+.container {
+  display: flex;
 }
