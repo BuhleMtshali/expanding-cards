@@ -1,8 +1,14 @@
 body {
   font-family: "Inter", sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+h1 {
+  display: flex;
+  text-align: center;
 }
 .one {
   background-image: url(imgs/bg-1.jpg);
@@ -62,7 +68,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 60vw;
-  margin-left: 40px;
 }
 
 .panel {
