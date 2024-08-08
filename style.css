@@ -10,7 +10,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
   border-radius: 50px;
 }
 .two {
@@ -19,7 +18,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
+
   border-radius: 50px;
 }
 .three {
@@ -28,7 +27,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
+
   border-radius: 50px;
 }
 .four {
@@ -37,7 +36,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
+
   border-radius: 50px;
 }
 .five {
@@ -46,7 +45,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
+
   border-radius: 50px;
 }
 .six {
@@ -55,9 +54,30 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  flex: 0.5;
+
   border-radius: 50px;
 }
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.panel {
+  cursor: pointer;
+  margin: 10px;
+  flex: 0.5;
+  position: relative;
+}
+.panel.active {
+  flex: 5;
+}
+h2 {
+  color: white;
+  position: absolute;
+  font-size: 32px;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
 }
