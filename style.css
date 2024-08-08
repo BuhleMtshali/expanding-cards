@@ -70,11 +70,14 @@ body {
   margin: 10px;
   flex: 0.5;
   position: relative;
+  opacity: 0.5;
 }
 .panel.active {
   flex: 5;
+  opacity: 1;
+  transition: flex 0.3s ease-in-out;
 }
-.panel.active h3 {
+.panel.active h2 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
